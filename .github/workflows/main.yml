@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: ftp.samkirkland.com
+        server: www.cipher.co.tz
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /production2.cipher.co.tz/
+        server-dir: /production.cipher.co.tz/
